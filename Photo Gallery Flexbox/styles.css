@@ -1,0 +1,28 @@
+/* •	Change the body, ul and li display property to flex
+•	Set the ul property justify-content to be equal to space-between */
+
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
+ul{
+    justify-content: space-between;
+    margin: 60px;
+}
+
+li{
+    border: solid 10px black;
+    background-color: white;
+    padding: 25px 12px;
+    
+    align-items: center;
+    margin: 20px;
+    box-shadow: 1px 1px 10px;
+}
+

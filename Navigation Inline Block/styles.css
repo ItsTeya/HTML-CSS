@@ -1,0 +1,29 @@
+html{
+    font-family: Helvetica, sans-serif;
+    padding: 50px 80px;
+}
+
+h1{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+h2{
+    border-top: solid 3px darkgray;
+    padding-top: 30px
+}
+
+nav{
+    display: inline-block;
+}
+
+header{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    color: green;
+    display: inline-block;
+    margin: 12px;
+}

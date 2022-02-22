@@ -1,0 +1,110 @@
+/* •	Use rgb(0, 102, 0) for the anchors
+•	Use rgb(255, 255, 255) for image background and rgba(0, 0, 0, 0.25) for image box shadow
+•	Use font Georgia, serif for the blockquote
+•	Use font Georgia, serif with size 1em/1.2 for the headings --> */
+
+html {
+  background-color: rgb(238, 238, 238);
+  margin: 30px 50px;
+}
+
+.BodyHeader ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav {
+  position: absolute;
+  top: 40px;
+  right: 70px;
+}
+
+.BodyHeader p {
+  font-size: 2rem;
+  border-bottom: solid 2px black;
+  padding-bottom: 7px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+main {
+  display: inline-block;
+  width: 65%;
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-left: 60px;
+}
+
+.headings {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: square;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+}
+
+main section {
+  margin-top: 40px;
+}
+
+img {
+  border: 4px solid black;
+  padding: 8px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+#img1 {
+  float: right;
+  margin-left: 20px;
+}
+
+#img2 {
+  float: left;
+  margin-right: 20px;
+}
+
+span {
+  float: right;
+  margin-top: 40px;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0;
+  grid-template-areas: 
+        "p p"
+        "p blockquote";
+}
+
+blockquote {
+  border-left: 2px solid lightgray;
+  padding: 20px;
+  margin: 0;
+  font-style: italic;
+  font-family: Georgia, serif;
+  line-height: 25px;
+}
+
+span{
+  float: right;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.column p{
+  margin-right: 20px;
+}

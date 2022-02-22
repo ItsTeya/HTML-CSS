@@ -1,0 +1,20 @@
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  background-color: #ededed;
+}
+
+article h2 {
+  color: floralwhite;
+  background-color: #3b516b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+
+article li {
+  margin-left: 20px;
+}

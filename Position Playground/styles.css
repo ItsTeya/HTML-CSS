@@ -1,0 +1,44 @@
+@import url(https://fontawesome.com/);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: relative;
+  height: 500px;
+}
+
+.viewport1 {
+  background-image: linear-gradient(to right, blue, lightgreen);
+}
+
+.viewport2 {
+  background-image: linear-gradient(to right, hotpink, darkorange);
+}
+
+img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+
+#imgOne {
+  height: 190px;
+}
+
+#imgTwo {
+  height: 450px;
+}
+
+/* .card{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+} */
