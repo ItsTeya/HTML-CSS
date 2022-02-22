@@ -1,0 +1,77 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 15vw;
+  height: 45rem;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+span {
+  font-family: Helvetica, sans-serif;
+  border: 1px solid black;
+  width: 80px;
+  padding: 25px;
+  text-align: center;
+}
+
+.first {
+  order: 0;
+}
+
+.second {
+  order: 1;
+}
+
+.third {
+  order: 3;
+}
+
+.fourth {
+  order: 4;
+}
+
+.fifth {
+  order: 5;
+}
+
+.sixth {
+  order: 6;
+}
+
+.seventh {
+  order: 7;
+}
+
+.eighth {
+  order: 8;
+}
+
+.ninth {
+  order: 9;
+}
+
+.tenth {
+  order: 10;
+}
+
+.eleventh {
+  order: 11;
+}
+
+.twelveth {
+  order: 12;
+}
