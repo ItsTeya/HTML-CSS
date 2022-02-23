@@ -1,0 +1,44 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.button {
+  background-color: rgb(0, 153, 0);
+  display: inline-block;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  padding: 7px 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+}
+
+h1 {
+  font-size: 1.2em;
+  top: 340px;
+  left: 20px;
+  position: absolute;
+}
+
+p {
+  position: absolute;
+  left: 20px;
+  top: 380px;
+}
