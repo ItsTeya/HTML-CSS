@@ -1,0 +1,81 @@
+#card {
+  margin: auto;
+  margin-top: 200px;
+  height: 300px;
+  border: 0px solid gray;
+  box-shadow: 0 0 20px gray;
+  width: 660px;
+  position: relative;
+
+  background-image: url(./image1.png);
+  background-repeat: repeat-y;
+  background-size: 330px;
+}
+
+#left {
+  position: absolute;
+  width: 300px;
+  height: 287px;
+  margin-left: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgreen;
+  margin-bottom: 0px;
+
+}
+
+p{
+    font-size: 12px;
+    line-height: 3px;
+}
+
+#serves {
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0;
+}
+
+.instr{
+    line-height: 15px;
+}
+
+.text{
+    margin: 30px 0px;
+}
+
+/* TABLE
+............................ */
+
+table {
+  position: absolute;
+  bottom: 0px;
+  font-size: 15px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgb(33, 207, 74);
+  border-collapse: collapse;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#firstRow {
+  font-weight: 600;
+}
+
+/* RIGHT
+................. */
+
+#right {
+  position: relative;
+}
+#smoothie {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
